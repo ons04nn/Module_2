@@ -1,0 +1,389 @@
+/* Общие стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Involve, sans-serif;
+    background-color: #090923;
+    padding:30px;
+}
+
+body {
+    background-image: url("#080A4C");
+    background-size: contain;
+    color: #fff;
+    line-height: 1.6;
+}
+
+
+/* Навигация */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    border: 1px solid white;
+    border-radius: 60px;
+    
+    
+}
+
+footer {
+    background: #1e1e3f;
+    text-align: center;
+    padding: 20px 10px;
+    font-size: 1rem;
+}
+
+
+.footer-content {
+display: flex;
+justify-content: space-evenly;
+}
+
+.footer-content--links {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
+}
+.footer-content--authors {
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+gap: 18px;
+}
+
+.footer-content--hselogo {
+display: flex;
+justify-content: flex-end;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.white{
+    color: #080A4C;
+    background-color: white;
+    border: white solid 1px;
+    border-radius: 24px;
+    gap: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.white-border {
+    color: white;
+    background-color: none;
+    border: white solid 1px;
+    border-radius: 24px;
+    gap: 15px;
+    font-size: 16px;
+    background: none;
+}
+
+.TG {
+margin-right: 10px;
+margin-top: 10px;
+cursor: pointer;
+}
+
+.VK {
+    margin-right: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-gap {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.wrapper-gap--center {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    align-items: center;
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.logo-gap{
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.text{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 30px;
+    border: white solid;
+    border-radius: 30px;
+    padding: 50px;
+    background-color: rgba(1,1,200,0.1);
+}
+
+.big {
+    font-size: xx-large;
+}
+
+
+
+.container-hor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cards {
+    display: flex;
+    
+}
+
+.card {
+    padding:15px;
+    background-image: url("/src/assets/images/bg-card.png");
+}
+
+.why-sleep {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+.features {
+    margin-bottom: 200px;
+}
+
+.hero {
+    margin-bottom: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.benefits {
+    margin-top: 200px;
+    margin-bottom: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 96px;
+    font-family: "Involve";
+    src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+    line-height:96px;
+}
+
+h2 {
+    font-size: 64px;
+    font-family: "Involve";
+    src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+    padding-bottom: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 48px;
+    font-family: "Involve";
+    src: url("../assets/fonts/involve/Involve-Regular.ttf");
+    line-height: 50px;
+}
+
+p {
+    font-size: 30px;
+    font-family: "Involve";
+    src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+}
+.p1 {
+    font-size: 20px;
+    font-family: "Involve";
+    src: url("../assets/fonts/involve/Involve-Regular.ttf");
+}
+
+.p2 {
+    font-size: 32px;
+    font-family: "Involve";
+    src: url("../assets/fonts/involve/Involve-Regular.ttf");
+}
+
+.p4 {
+    font-size: 18px;
+    font-family: "Involve";
+    src: url("../assets/fonts/involve/Involve-Regular.ttf");
+}
+
+button {
+    cursor: pointer;
+    font-size:1rem;
+    border-radius: 30px;
+}
+
+.stat {font-size: 20px;}
+
+.big {font-size: 96px;}
+
+.cont {
+display: flex;
+justify-content: center;
+}
+
+li {
+    
+    
+}
+
+.grad {
+    display: flex;
+}
+
+.cta {
+    background-image: url("./src/assets/images/bg-slide.png");
+    background-repeat:round;
+    height:468px;
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 30px;
+}
+
+.bg-slide {
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.li {
+    gap:24px;
+}
+
+.dog {
+    max-width: 50%;
+}
+
+.left-cont {
+}
+
+.mini-text {
+    display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+}
+
+.bg-slide_2 {
+    background-image: url("./src/assets/images/bg-slide_2.png");
+    background-repeat:round;
+    width: 672px;
+    height: 446px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
+
+.content {
+    width: 100%;
+}
+
+.block {
+    width:413px;
+    height:430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-color: #1e1e3f;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    
+}
+
+.block {
+    justify-content: space-between; 
+    border-radius: 30px;
+    margin-right: 50px;
+    
+}
+
+
+.list {
+
+    gap:30px;
+}
+
+.gap {
+    gap: 30px;
+    margin-bottom: 20px;
+    
+}
+
+.text-gap {
+    padding:20px;
+}
+
+.gap_text {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.white-2 {
+    background-color: #fff;
+    color: #080A4C;
+    border: white solid 1px;
+    border-radius: 24px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.grey {
+    background-color: rgba(255, 255, 255, 0.3);
+    padding:8px;
+    border-radius: 30px;
+}
+

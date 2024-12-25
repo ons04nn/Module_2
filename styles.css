@@ -175,6 +175,7 @@ cursor: pointer;
     flex-direction: column;
     align-items: center;
     margin-bottom: 200px;
+   
 }
 
 .features {
@@ -183,6 +184,7 @@ cursor: pointer;
 
 .hero {
     margin-bottom: 200px;
+    
 }
 
 .benefits {
@@ -196,14 +198,14 @@ cursor: pointer;
 h1{
     font-size: 96px;
     font-family: "Involve";
-    src: url("/src/assets/fonts/involve/Involve-Regular.ttf");
+    src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
     line-height:96px;
 }
 
 h2 {
     font-size: 64px;
     font-family: "Involve";
-    src: url("/src/assets/fonts/involve/Involve-Regular.ttf");
+    src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
 }
 
 h3 {
@@ -213,35 +215,35 @@ h3 {
 h4 {
     font-size: 48px;
     font-family: "Involve";
-    src: url("/src/assets/fonts/involve/Involve-Regular.ttf");
+    src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
     line-height: 50px;
 }
 
 p {
     font-size: 30px;
     font-family: "Involve";
-    src: url("/src/assets/fonts/involve/Involve-Regular.ttf");
+    src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
 }
 .p1 {
     font-size: 20px;
     font-family: "Involve";
-    src: url("../Morpheus/src/assets/fonts/involve/Involve-Regular.ttf");
+    src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
 }
 
 .p2 {
     font-size: 32px;
     font-family: "Involve";
-    src: url("../Morpheus/src/assets/fonts/involve/Involve-Regular.ttf");
+    src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
 }
 
 .p4 {
     font-size: 18px;
-    font-family: "Inter";
+    font-family: "Involve";
     src: url("../Morpheus/src/assets/fonts/involve/Involve-Regular.ttf");
 }
 
 button {
-    font-family: Inter, Arial;
+    font-family: Involve, Arial;
     width: 250px;
     height: 58px;
     border: 0 solid;
