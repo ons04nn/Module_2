@@ -171,6 +171,7 @@ cursor: pointer;
     color: white;
     text-decoration: none;
     cursor: pointer;
+
 }
 
 
@@ -519,6 +520,7 @@ li {
 
     a {
         text-decoration: none;
+        color:black;
     }
 
 
@@ -530,6 +532,11 @@ li {
 
 @media (max-width: 600px) {
 
+
+    .mini-text {
+        margin:10px;
+    }
+
     .why-sleep {
         margin-left: 10px;
         margin-right: 10px;
@@ -538,13 +545,14 @@ li {
   .wrapper-gap--center {
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
   }
     
     h1{
         font-size: 35px;
         font-family: "Involve";
         src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
-        line-height:50px;
+        line-height:40px;
     }
     
     h2 {
@@ -565,12 +573,12 @@ li {
     }
     
     p {
-        font-size: 16px;
+        font-size: 14px;
         font-family: "Involve";
         src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
     }
     .p1 {
-        font-size: 14px;
+        font-size: 12px;
         font-family: "Involve";
         src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
     }
