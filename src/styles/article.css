@@ -1,3 +1,31 @@
+@font-face {
+    font-family: 'Involve';
+    src: url('./src/assets/fonts/involve/Involve-Bold.woff2') format('woff2'),
+        url('./src/assets/fonts/involve/Involve-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Involve';
+    src: url('./src/assets/fonts/involve/Involve-Regular.woff2') format('woff2'),
+        url('./src/assets/fonts/involve/Involve-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Involve';
+    src: url('./src/assets/fonts/involve/Involve-Medium') format('woff2'),
+        url('./src/assets/fonts/involve/Involve-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /* Общие стили */
 * {
     margin: 0;
@@ -8,7 +36,6 @@
 html {
     font-family: Involve, sans-serif;
     background-color: #090923;
-    padding:30px;
 }
 
 body {
@@ -25,6 +52,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 200px;
+    padding: 30px;
 }
 .nav {
     display: flex;
@@ -139,8 +167,7 @@ cursor: pointer;
     cursor: pointer;
 }
 
-@media (max-width: 1200px) {
-}
+
 
 .container {
     display: flex;
@@ -205,15 +232,14 @@ cursor: pointer;
 h1{
     font-size: 96px;
     font-family: "Involve";
-    src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
     line-height:96px;
+    font-weight: 500;
 }
 
 h2 {
     font-size: 64px;
     font-family: "Involve";
-    src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
-    padding-bottom: 30px;
+    font-weight: 500;
 }
 
 h3 {
@@ -223,37 +249,51 @@ h3 {
 h4 {
     font-size: 48px;
     font-family: "Involve";
-    src: url("../assets/fonts/involve/Involve-Regular.ttf");
+    font-weight: normal;
     line-height: 50px;
 }
 
 p {
     font-size: 30px;
     font-family: "Involve";
-    src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+    font-weight: normal;
 }
 .p1 {
     font-size: 20px;
     font-family: "Involve";
-    src: url("../assets/fonts/involve/Involve-Regular.ttf");
+    font-weight: normal;
 }
 
 .p2 {
     font-size: 32px;
     font-family: "Involve";
-    src: url("../assets/fonts/involve/Involve-Regular.ttf");
+    font-weight: normal;
 }
 
 .p4 {
     font-size: 18px;
     font-family: "Involve";
-    src: url("../assets/fonts/involve/Involve-Regular.ttf");
+    font-weight: normal;
 }
 
 button {
-    cursor: pointer;
-    font-size:1rem;
+    font-family: Involve, Arial;
+    width: 250px;
+    height: 58px;
+    border: 0 solid;
     border-radius: 30px;
+    font-size: 24px;
+    cursor: pointer;
+    margin: 15px;
+}
+
+button:hover {
+    border-color: #090923;
+    border: 1px solid;;
+}
+
+button:active {
+background-color: rgb(200,200,200);
 }
 
 .stat {font-size: 20px;}
@@ -387,3 +427,121 @@ li {
     border-radius: 30px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 1200px) {
+
+    .container-hor {
+        display: flex;
+        margin-top: 30px;
+        justify-content: space-between;
+    }
+    
+    h1{
+        font-size: 48px;
+        font-family: "Involve";
+        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+        line-height:96px;
+    }
+    
+    h2 {
+        font-size: 30px;
+        font-family: "Involve";
+        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    h4 {
+        font-size: 34px;
+        font-family: "Involve";
+        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+        line-height: 50px;
+    }
+    
+    p {
+        font-size: 16px;
+        font-family: "Involve";
+        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+    }
+    .p1 {
+        font-size: 14px;
+        font-family: "Involve";
+        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+    }
+    
+    .p2 {
+        font-size: 32px;
+        font-family: "Involve";
+        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+    }
+    
+    .p4 {
+        font-size: 13px;
+        font-family: "Involve";
+        src: url("../Morpheus/src/assets/fonts/involve/Involve-Regular.ttf");
+    }
+    
+    .cards {
+        flex-direction: column;
+    }
+    
+    .stats {
+        display: flex;
+        flex-direction: column  ;
+        align-items: center;    }
+
+        body {
+         
+            
+        }
+
+       
+
+        .container-hor2 {
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .cta {
+            width:95%;
+            height: 95%;
+        }
+
+        .footer-content {
+                justify-content: space-evenly;
+                flex-direction: column;
+                align-items: center;
+        }
+
+        .footer-content--authors {
+            margin-top: 20px;
+        }
+        .footer-content--hselogo {
+            margin-top: 20px;
+        }
+
+        
+
+        .melatonin {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+
+        img {
+            max-width: 100%;
+        }
+
+    }
