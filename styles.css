@@ -39,8 +39,10 @@
 html {
     font-family: Involve, Inter, sans-serif;
     background-color: #090923;
-    
+    scroll-behavior: smooth;
 }
+
+
 
 body {
     background-image: url("./src/assets/images/background.png");
@@ -67,10 +69,12 @@ header {
 }
 
 footer {
-    background: #1e1e3f;
+    
     text-align: center;
     padding: 20px 10px;
     font-size: 0.9rem;
+    padding-top: 150px;
+    padding-bottom: 50px;
 }
 
 
@@ -346,7 +350,7 @@ li {
 
 
 .dog {
-    max-width: 50%;
+    max-width: 100%;
     
 }
 
@@ -474,15 +478,13 @@ li {
         body {
             background-image: url("./src/assets/images/background-m.png");
             background-size: cover;
-            bac
+        
             
         }
 
         .bg-slide_2 {
             width: 50%;
             height: 450px;
-
-        
 
         }
 
@@ -509,7 +511,79 @@ li {
             margin-top: 20px;
         }
 
-        img {
-            max-width: 100%;
-        }
+       
     }
+    img {
+        max-width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+@media (max-width: 600px) {
+
+    .why-sleep {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+  .wrapper-gap--center {
+    display: flex;
+    flex-direction: column;
+  }
+    
+    h1{
+        font-size: 35px;
+        font-family: "Involve";
+        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+        line-height:50px;
+    }
+    
+    h2 {
+        font-size: 20px;
+        font-family: "Involve";
+        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+    }
+    
+    h3 {
+        font-size: 20px;
+    }
+    
+    h4 {
+        font-size: 25px;
+        font-family: "Involve";
+        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+        line-height: 35px;
+    }
+    
+    p {
+        font-size: 16px;
+        font-family: "Involve";
+        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+    }
+    .p1 {
+        font-size: 14px;
+        font-family: "Involve";
+        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+    }
+    
+    .p2 {
+        font-size: 32px;
+        font-family: "Involve";
+        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
+    }
+    
+    .p4 {
+        font-size: 13px;
+        font-family: "Involve";
+        src: url("../Morpheus/src/assets/fonts/involve/Involve-Regular.ttf");
+    }
+}

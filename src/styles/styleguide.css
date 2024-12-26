@@ -35,7 +35,7 @@
 html {
     font-family: 'Involve', Arial, Helvetica, sans-serif;
     background-color: #090923;
-   
+    scroll-behavior: smooth;
 }
 
 body {
@@ -65,10 +65,12 @@ header {
 }
 
 footer {
-    background: #1e1e3f;
+  
     text-align: center;
     padding: 20px 10px;
     font-size: 1rem;
+    padding-top: 150px;
+    padding-bottom: 50px;
 }
 
 
@@ -336,6 +338,8 @@ li {
 
 .dog {
     max-width: 50%;
+    display: flex;
+    justify-content: flex-end;
 }
 
 .left-cont {
