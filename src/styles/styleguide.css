@@ -485,14 +485,12 @@ width: 95%;
     h1{
         font-size: 48px;
         font-family: "Involve";
-        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
         line-height:96px;
     }
     
     h2 {
         font-size: 30px;
         font-family: "Involve";
-        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
     }
     
     h3 {
@@ -502,31 +500,26 @@ width: 95%;
     h4 {
         font-size: 34px;
         font-family: "Involve";
-        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
         line-height: 50px;
     }
     
     p {
         font-size: 16px;
         font-family: "Involve";
-        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
     }
     .p1 {
         font-size: 14px;
         font-family: "Involve";
-        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
     }
     
     .p2 {
         font-size: 32px;
         font-family: "Involve";
-        src: url("./src/assets/fonts/involve/Involve-Regular.ttf");
     }
     
     .p4 {
         font-size: 13px;
         font-family: "Involve";
-        src: url("../Morpheus/src/assets/fonts/involve/Involve-Regular.ttf");
     }
     
     .cards {
